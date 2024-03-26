@@ -1,9 +1,6 @@
 {% extends "!layout.html" %}
 {% block sidebartitle %}
 	<a href="{{ pathto(master_doc) }}">
-	{# Not strictly valid HTML, but it's the only way to display/scale
-	   it properly, without weird scripting or heaps of work
-	#}
 	<img src="{{ pathto('_static/ckanlogo.png', 1) }}" class="logo" alt="Logo"/>
   </a>
 
@@ -20,7 +17,7 @@
 	  <div class="admonition warning">
 	  <p class="first admonition-title">Warning</p>
 	  <p class="last">
-		  This is the documentation for the latest development version of CKAN, which may be unstable.
+		  This is the documentation for the latest development version of DIT, which may be unstable.
 		  For other stable releases check the selector at the bottom left corner of the page.
 	  </p>
 	  </div>
